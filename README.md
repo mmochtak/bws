@@ -1,5 +1,5 @@
 # bws <img src="/man/bws.png" style="max-width:100%;" height="139" align="right">
-*R package for bootstrapping wrodscores models for stabilized scores*
+*R package for bootstrapping wrodscores models*
 
 **bws** is a bootstrapping utility designed for stabilizing scaling scores across different reference documents. Build on top of quanteda wordscores function, the package automatically scales multiple wordscores models using user-defined pairs of reference documents and average the results as stabilized scaling scores.
 
