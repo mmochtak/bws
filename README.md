@@ -9,7 +9,7 @@ Testing has shown that choosing just one pair of documents for scaling using the
 ## Installation Instruction
 Install the package from the GitHub repository:
 ```
-devtools::install_github('mmochtak/bws')
+devtools::install_github('mmochtak/bws', dependencies = TRUE)
 ```
 ## Version
 0.0.1
