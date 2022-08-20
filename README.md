@@ -47,7 +47,7 @@ l <- c(28, 17, 9, 10)
 r <- c(1, 7, 30, 27)
 ```
 
-In order to run the bootstrapping algorithm, we simply call the *bws()* function. The number of bootstraps is defined by the number of all combinations of anchor documents. In our example, that's 4x4 combinations (16 in total).
+In order to run the bootstrapping algorithm, we simply call the *bws()* function. The number of bootstraps is defined by the number of all combinations of anchor documents. In our example, that's 4x4 combinations (16 in total). Many of the parameters are automatically inherited from the quanteda processing pipeline. See the information associated with each of them when calling the *bws()* function.
 
 ```
 ws_df <- bws(text = df$text, doc_id = df$doc_id, l_scale = l, r_scale = r,
