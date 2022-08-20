@@ -1,5 +1,5 @@
 Package: bws
-Title: What the Package Does (One Line, Title Case)
+Title: Boostrapping of wordscores models
 Version: 0.0.1
 Authors@R: 
     person(given = "Michal",
@@ -8,6 +8,11 @@ Authors@R:
            email = "mochtak@gmail.com",
            comment = c(ORCID = "0000-0001-5598-5642"))
 Description: The package is an implementation of guided bootstrapping for wordscores algorithm.
+Depends:
+	quanteda,
+	quanteda.textmodels,
+	ggplot2,
+	magrittr
 License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
