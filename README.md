@@ -40,7 +40,7 @@ Let's clean the document IDs for the plot that will come later.
 df$doc_id <- gsub("\\.txt", "", df$doc_id)
 ```
 
-Finally, we set the anchor documents which are used for creating pairs for running bootstrapped models. *l* and *r* denote virtual left and right sides of the scale. Both variables are simple numeric vectors with indexes of documents that fall under one of the categories and should be regarded as *anchor documents*. In other words, documents 28, 17, 9, and 10 are all used as anchor documents for the left side of the spectrum. On the other hand, documents number 1, 7, 30, and 27 define the anchors of the right side of the spectrum. 
+Finally, we set the anchor documents which are used for creating pairs for running bootstrapped models. *l* and *r* denote virtual left and right sides of the scale. Both variables are simple numeric vectors with indexes of documents that fall under one of the categories and should be regarded as *anchor documents*. In other words, documents 28, 17, 9, and 10 are all used as anchor documents for the left side of the spectrum. On the other hand, documents number 1, 7, 30, and 27 define the anchors of the right side of the spectrum. This is just a mock-up example. The indexes do not have any specific policy or positional meaning. 
 
 ```
 l <- c(28, 17, 9, 10)
